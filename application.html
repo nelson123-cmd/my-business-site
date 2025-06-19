@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farm Sponsorship Application</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="https://source.unsplash.com/100x100/?farm" alt="Logo" class="logo" />
+    <h1>Apply for Farming Sponsorship</h1>
+    <p>We support passionate farmers ready to build the future of agriculture.</p>
+  </header>
+
+ <nav class="navbar">
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="application.html">Apply</a>
+  <a href="projects.html">Projects</a>
+  <a href="testimonials.html">Testimonials</a>
+</nav>
+
+  <main>
+    <section>
+      <h2>Eligibility Application Form</h2>
+      <form>
+        <label for="fullname">Full Name:</label><br />
+        <input type="text" id="fullname" name="fullname" required /><br /><br />
+
+        <label for="email">Email Address:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="phone">Phone Number:</label><br />
+        <input type="tel" id="phone" name="phone" required /><br /><br />
+
+        <label for="location">Farm Location (Village/Town, Region):</label><br />
+        <input type="text" id="location" name="location" required /><br /><br />
+
+        <label for="project">Type of Farming Project:</label><br />
+        <select id="project" name="project" required>
+          <option value="">--Select--</option>
+          <option value="plantain">Plantain Plantation</option>
+          <option value="cassava">Cassava Farm</option>
+          <option value="poultry">Poultry (Chicken)</option>
+          <option value="fish">Fish Farming</option>
+          <option value="other">Other</option>
+        </select><br /><br />
+
+        <label for="experience">Do you have any farming experience?</label><br />
+        <select id="experience" name="experience" required>
+          <option value="">--Select--</option>
+          <option value="yes">Yes</option>
+          <option value="no">No</option>
+        </select><br /><br />
+
+        <label for="funds">How much funding are you requesting (in FCFA)?</label><br />
+        <input type="number" id="funds" name="funds" min="10000" required /><br /><br />
+
+        <label for="details">Describe your farm idea and why we should sponsor you:</label><br />
+        <textarea id="details" name="details" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Business | Supporting Local Agriculture</p>
+  </footer>
+</body>
+</html>
