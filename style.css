@@ -33,6 +33,7 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
 ul {
   list-style-type: square;
   padding-left: 20px;
@@ -41,6 +42,7 @@ ul {
 section {
   margin-bottom: 30px;
 }
+
 form {
   max-width: 400px;
   margin: auto;
@@ -64,15 +66,18 @@ button {
 button:hover {
   background-color: hsl(345, 91%, 9%);
 }
+
 .logo {
   width: 300px;
   height: auto;
   display: block;
   margin: 0 auto 10px auto;
 }
+
 html {
   scroll-behavior: smooth;
 }
+
 .feature-image {
   width: 100%;
   max-width: 600px;
@@ -95,6 +100,7 @@ html {
 .btn:hover {
   background-color: #e4990d;
 }
+
 .project {
   border: 1px solid #238054;
   border-radius: 10px;
@@ -108,6 +114,7 @@ html {
   border-radius: 5px;
   margin-bottom: 10px;
 }
+
 .testimonial {
   background-color: #e4f3ec;
   border-left: 4px solid #fafdf9e3;
@@ -120,10 +127,6 @@ html {
   margin-top: 10px;
   color: #000000;
   font-style: italic;
-}
-/* GENERAL LAYOUT */
-
-  padding: 10px;
 }
 
 /* NAVBAR STYLES */
