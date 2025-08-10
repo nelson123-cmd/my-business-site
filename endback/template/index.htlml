@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Business</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="me.webp" alt="My Business Logo" class="logo" />
+    <h1>My Business</h1>
+    <p>Quality Services for You</p>
+  </header>
+
+  <nav class="navbar">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="application.html">Apply</a>
+    <a href="projects.html">Projects</a>
+    <a href="testimonials.html">Testimonials</a>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to My Business</h2>
+      <p>We help small businesses grow online by creating powerful websites and offering expert marketing strategies.</p>
+      <a href="about.html" class="btn">Learn more about us →</a>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Website Design</li>
+        <li>Social Media Management</li>
+        <li>Business Consulting</li>
+      </ul>
+      <img src="https://source.unsplash.com/600x300/?office,teamwork" alt="Team at work" class="feature-image" />
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Email us at: <a href="mailto:billnelson625@gmail.com">billnelson625@gmail.com</a></p>
+      <p>Call: +237 672 70 60 75</p>
+    </section>
+
+    <section id="form">
+      <h2>Message Us</h2>
+      <form>
+        <label for="name">Name:</label><br />
+        <input type="text" id="name" name="name" required /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input type="email" id="email" name="email" required /><br /><br />
+
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="5" required></textarea><br /><br />
+
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 My Business</p>
+  </footer>
+</body>
+</html>
