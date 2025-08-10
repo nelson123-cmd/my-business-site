@@ -70,7 +70,7 @@ def contact():
         <body style="font-family: Arial; text-align: center; padding-top: 50px;">
         <h2>THANK YOU FOR CONTACTING US.</h2>
         <h3>We have received your message.</h3>
-        <a href="http://127.0.0.1:5500/my-business-site/application.html">
+        <a href="https://my-business-site-eta.vercel.app/">
             <button>Back to Home</button>
         </a>
     </body>
@@ -116,7 +116,7 @@ def handle_booking():
     <body style="font-family: Arial; text-align: center; padding-top: 50px;">
         <h2>THANK YOU FOR BOOKING YOUR TOUR WITH US.</h2>
         <h3>We will contact you via email.</h3>
-        <a href="http://127.0.0.1:5500/my-business-site/application.html">
+        <a href="https://my-business-site-eta.vercel.app/">
             <button>Back to Homepage</button>
         </a>
     </body>
